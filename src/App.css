@@ -1,0 +1,196 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  background: #FDF8EC;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Header-text {
+  color: var(--Black, #000);
+  text-align: center;
+  font-family: "Climate Crisis";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 46px; /* 164.286% */
+  position: absolute;
+  left: 5%;
+}
+
+.Container {
+  width: 100vw;
+  height: fit-content;
+  background: #FDF8EC;
+  align-items: center;
+  margin: auto;
+}
+
+.Page-names {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 55%;
+  width: 286px;
+  height: 24px;
+  position: absolute;
+  list-style-type: none;
+  right: 5%;
+}
+
+.Page-name {
+  color: var(--Black, #000);
+  font-family: Satoshi;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration: none;
+  position: absolute;
+}
+
+.App-header {
+  background: #FDF8EC;
+  height: 100px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Title1 {
+  left: 3%;
+  right: 3%;
+  margin: auto;
+  text-align: center;
+  position: absolute;
+  color: var(--Black, #000);
+  font-family: "Climate Crisis";
+  text-shadow: 3px 3px #FDF8EC;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116px; /* 116% */
+}
+
+.Title1 Span {
+  text-shadow: 5px 5px #FF7A00;
+}
+
+.Rumii-bag {
+  width: 100vw;
+  height: 636px;
+  background: url(Media/rumii-title1.png);
+  background-position: center;
+  background-size: 90vw;
+  background-repeat: no-repeat;
+  padding-top: 150px;
+}
+
+.Row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2%;
+}
+
+.bn4n-col1 {
+  flex-basis: 40%;
+  margin: auto;
+  text-align: left;
+}
+
+.Title2 {
+  color: var(--Black, #000);
+  font-family: "Climate Crisis";
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116px; /* 116% */
+}
+
+.Title2 span {
+  text-shadow: 5px 5px #9ABCFF;
+}
+
+.bn4n-col2 {
+  flex-basis: 40%;
+  margin: auto;
+  text-align: left;
+}
+
+.Description {
+  color: var(--Black, #000);
+  font-family: Satoshi;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 150% */
+}
+
+.Description span {
+  font-weight: bold;
+  text-shadow: 1px 1px #FF7A00;
+}
+
+.col-imgs {
+  width: 100%;
+  flex: auto;
+  margin-left: 2%;
+  margin-right: 2%;
+  border: solid 10px #9ABCFF;
+  border-radius: 20px;
+}
+
+.essentials-col1 {
+  flex-basis: 40%;
+  margin: auto;
+  padding-left: 5%;
+}
+
+.Sub-title {
+  color: var(--Black, #000);
+  font-family: "Satoshi Variable";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 55px;
+  text-align: left;
+  justify-content: left;
+}
+
+.Sub-title span {
+  text-shadow: 3px 3px #9ABCFF;
+}
+
+.essentials-col2 {
+  flex-basis: 40%;
+  margin: auto;
+  padding-right: 5%;
+}
+
+.essentials-img {
+  width: 75%;
+  border: solid 4px #FF7A00;
+  border-radius: 50%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
