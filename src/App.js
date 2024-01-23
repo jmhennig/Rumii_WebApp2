@@ -2,6 +2,7 @@ import decoration1 from './Media/decoration1.png';
 import rumiigif from './Media/rumii-gif.gif';
 import essentials1 from './Media/essentials1.png';
 import essentials2 from './Media/essentials2.png';
+import ellipses from './Media/Ellipses.png';
 import './App.css';
 
 function App() {
@@ -38,9 +39,10 @@ function App() {
           <h1 className="Title1">Essential bag is essential in name, form, & function <span>for nurses</span>.</h1>
           <img 
             src={decoration1}
-            style={{paddingTop: "50px", paddingRight: "37%"}}>
+            style={{paddingTop: "70px", paddingRight: "37%"}}>
           </img>
           <div className="Rumii-bag"></div>
+          <div className='Ellipses'></div>
         </div>
 
         <div className="Container">
