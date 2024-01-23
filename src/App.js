@@ -2,7 +2,9 @@ import decoration1 from './Media/decoration1.png';
 import rumiigif from './Media/rumii-gif.gif';
 import essentials1 from './Media/essentials1.png';
 import essentials2 from './Media/essentials2.png';
-import ellipses from './Media/Ellipses.png';
+import arrow from './Media/Arrow.svg';
+import comma from './Media/comma.png';
+import reviews from './Media/reviews.png';
 import './App.css';
 
 function App() {
@@ -39,7 +41,7 @@ function App() {
           <h1 className="Title1">Essential bag is essential in name, form, & function <span>for nurses</span>.</h1>
           <img 
             src={decoration1}
-            style={{paddingTop: "70px", paddingRight: "37%"}}>
+            style={{paddingTop: "1%", paddingRight: "5%"}}>
           </img>
           <div className="Rumii-bag"></div>
           <div className='Ellipses'></div>
@@ -117,7 +119,103 @@ function App() {
         </div>
 
         <div className="Container">
-          
+            <h1 className="Title3">Express <span>your</span> style</h1>
+
+          <div className="Product-row">
+            <div className="prod-col1">
+              Fits all occasion, goes with any outfit for any season
+            </div>
+            <div className="prod-col2">
+              <div className='bg1'>
+                <h2>Night Shift</h2>
+              </div>
+            </div>
+            <div className="prod-col3">
+              <img
+                className="arrow"
+                src={arrow}>
+              </img>
+            </div>
+          </div>
+
+          <div className="Product-row">
+            <div className="prod-col1">
+              Sophisticated and minimal, for more tasteful style look
+            </div>
+            <div className="prod-col2">
+              <div className='bg2'>
+                <h2>The Frontliner</h2>
+              </div>
+            </div>
+            <div className="prod-col3">
+              <img
+                className="arrow"
+                src={arrow}>
+              </img>
+            </div>
+          </div>
+
+          <div className="Product-row">
+            <div className="prod-col1">
+              Pair with all your scrubs and your outside hospital outfits too
+            </div>
+            <div className="prod-col2">
+              <div className='bg3'>
+                <h2>Full Moon</h2>
+              </div>
+            </div>
+            <div className="prod-col3">
+              <img
+                className="arrow"
+                src={arrow}>
+              </img>
+            </div>
+          </div>
+
+          <div className="Product-row">
+            <div className="prod-col1">
+              The iconic Rumii color, sure to draw all the attention
+            </div>
+            <div className="prod-col2">
+              <div className='bg4'>
+                <h2>Boost Blue</h2>
+              </div>
+            </div>
+            <div className="prod-col3">
+              <img
+                className="arrow"
+                src={arrow}>
+              </img>
+            </div>
+          </div>
+        </div>
+
+        <div className='reviews-cont'>
+          <div className="Title4">Nurses <span>love</span> us</div>
+          <div className='quote-box'>
+            <img 
+              className='comma1'
+              src={comma}>
+            </img>
+            <p className='Description'>
+              I absolutely LOVE my Rumii!
+              I love having so many pockets for all of my supplies
+              (alcohol pads, tapes, flushes, pen light, shears, pens,
+              highlighter, Curos caps, stethoscope, drawing needles,
+              band-aids, and so much more). I love how I have multiple
+              ways to wear it depending on my mood and I’ve received so
+              many compliments. It’s also very nice to be able to wipe
+              it down after ever shift.
+            </p>
+            <img 
+              className='comma2'
+              src={comma}>
+            </img>
+          </div>
+          <img 
+            className='reviews-img'
+            src={reviews}>
+          </img>
         </div>
       </body>
     </div>
