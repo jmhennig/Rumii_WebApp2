@@ -1,7 +1,8 @@
 .App {
   text-align: center;
-  height: 100vh;
+  height: 100%;
   background: #FDF8EC;
+  overflow-x: hidden;
 }
 
 .App-logo {
@@ -93,7 +94,7 @@
 .Rumii-bag {
   width: 100vw;
   height: 636px;
-  background: url(Media/rumii-title1.png);
+  background: url(Media/rumii-title.png);
   background-position: center;
   background-size: 90vw;
   background-repeat: no-repeat;
@@ -265,6 +266,20 @@
   background-color: #9ABCFF;
 }
 
+.bg1-img{
+  position: relative;
+  background: url(Media/nightshift.png) center/30vw no-repeat;
+  width: 30vw;
+  height: 100%;
+  background-position: center;
+  background-size: 30vw;
+  background-repeat: no-repeat;
+  padding-top: 120px;
+  right: -100%;
+  z-index: 2;
+}
+
+
 .bg2 {
   position: relative;
   height: 50px;
@@ -278,6 +293,19 @@
 
 .bg2:hover{
   background-color: #D0D5DD;
+}
+
+.bg2-img{
+  position: relative;
+  background: url(Media/frontliner.png) center/30vw no-repeat;
+  width: 30vw;
+  height: 100%;
+  background-position: center;
+  background-size: 30vw;
+  background-repeat: no-repeat;
+  padding-top: 120px;
+  right: -100%;
+  z-index: 2;
 }
 
 .bg3 {
@@ -295,6 +323,19 @@
   background-color: #FF7A00;
 }
 
+.bg3-img{
+  position: relative;
+  background: url(Media/fullmoon.png) center/30vw no-repeat;
+  width: 30vw;
+  height: 100%;
+  background-position: center;
+  background-size: 30vw;
+  background-repeat: no-repeat;
+  padding-top: 120px;
+  right: -100%;
+  z-index: 2;
+}
+
 .bg4 {
   position: relative;
   height: 50px;
@@ -308,6 +349,19 @@
 
 .bg4:hover{
   background-color: #3071F8;
+}
+
+.bg4-img{
+  position: relative;
+  background: url(Media/boost.png) center/30vw no-repeat;
+  width: 30vw;
+  height: 100%;
+  background-position: center;
+  background-size: 30vw;
+  background-repeat: no-repeat;
+  padding-top: 120px;
+  right: -100%;
+  z-index: 2;
 }
 
 .prod-col3 {

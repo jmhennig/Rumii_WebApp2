@@ -6,6 +6,8 @@ import arrow from './Media/Arrow.svg';
 import comma from './Media/comma.png';
 import reviews from './Media/reviews.png';
 import './App.css';
+import BgComponent from './ImageSlide';
+import gsap from 'gsap';
 
 function App() {
   return (
@@ -119,8 +121,25 @@ function App() {
         </div>
 
         <div className="Container">
-            <h1 className="Title3">Express <span>your</span> style</h1>
+          <h1 className="Title3">Express <span>your</span> style</h1>
+          
+          <BgComponent bagName="Night Shift" bgColor="bg1">
+            Fits all occasions, goes with any outfit for any season
+          </BgComponent>
 
+          <BgComponent bagName="The Frontliner" bgColor="bg2">
+            Sophisticated yet minimal, for a more tasteful style look
+          </BgComponent>
+
+          <BgComponent bagName="Full Moon" bgColor="bg3">
+            Pair with all your scrubs and your everyday outfits too
+          </BgComponent>
+
+          <BgComponent bagName="Boost Blue" bgColor="bg4">
+            Pair with all your scrubs and your everyday outfits too
+          </BgComponent>
+
+          {/* 
           <div className="Product-row">
             <div className="prod-col1">
               Fits all occasion, goes with any outfit for any season
@@ -131,14 +150,16 @@ function App() {
               </div>
             </div>
             <div className="prod-col3">
+              <div className='bg1-img'></div>
               <img
                 className="arrow"
                 src={arrow}>
               </img>
             </div>
           </div>
+          */}
 
-          <div className="Product-row">
+          {/* <div className="Product-row">
             <div className="prod-col1">
               Sophisticated and minimal, for more tasteful style look
             </div>
@@ -154,8 +175,9 @@ function App() {
               </img>
             </div>
           </div>
+          */}
 
-          <div className="Product-row">
+          {/* <div className="Product-row">
             <div className="prod-col1">
               Pair with all your scrubs and your outside hospital outfits too
             </div>
@@ -171,8 +193,9 @@ function App() {
               </img>
             </div>
           </div>
+          */}
 
-          <div className="Product-row">
+          {/* <div className="Product-row">
             <div className="prod-col1">
               The iconic Rumii color, sure to draw all the attention
             </div>
@@ -188,6 +211,8 @@ function App() {
               </img>
             </div>
           </div>
+          */}
+          
         </div>
 
         <div className='reviews-cont'>
